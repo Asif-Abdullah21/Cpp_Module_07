@@ -12,6 +12,7 @@ public:
 bool cmp(Student a, Student b) // roll er upor vitti kre ascending order a sort hocche
 {
     if(a.roll < b.roll) return true; // choto theke boro sort hocche roll wise, /// sign ultiye dile boro theke choto sort hbe ///
+    // jeta chai seta thakle true r na hole false return krbe
     else  return false; 
 }
 
