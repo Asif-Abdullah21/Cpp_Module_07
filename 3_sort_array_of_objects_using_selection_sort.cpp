@@ -28,7 +28,7 @@ int main()
     {
         for (int j = i + 1; j < 3; j++)
         {
-            if (a[i].marks > a[j].roll) swap(a[i], a[j]); // Shudhu marks e na, onno je kono kisu diye e sort kora jabe //
+            if (a[i].roll > a[j].roll) swap(a[i], a[j]); // Shudhu roll e na, onno je kono kisu diye e sort kora jabe //
         }
     }
 
