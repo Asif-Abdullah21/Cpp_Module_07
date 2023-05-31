@@ -9,6 +9,19 @@ public:
     int marks;
 };
 
+bool cmp(Student a, Student b) // roll er upor vitti kre ascending order a sort hocche
+{
+    if(a.roll < b.roll) return true; // choto theke boro sort hocche roll wise, /// sign ultiye dile boro theke choto sort hbe ///
+    else  return false; 
+}
+
+/// for marks based sort:
+
+// bool cmp(Student a, Student b){
+//     if(a.marks < b.marks) return true;      /// sign ultiye dile boro theke choto sort hbe ///
+//     else return false;
+// }
+
 int main()
 {
     Student a[3];
@@ -24,7 +37,7 @@ int main()
 
     // roll er vittite sort kortesi:
 
-    
+    sort(a,a+3,cmp);
 
     for (int i = 0; i < 3; i++)
     {
