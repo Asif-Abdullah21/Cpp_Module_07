@@ -24,13 +24,7 @@ int main()
 
     // roll er vittite sort kortesi:
 
-    for (int i = 0; i < 2 /*(n-1)*/; i++)   // sort er jonno prothom loop (n-1) porjonto chalate hoy, ekhane jehetu 3 ase fixed value tai manually 2 porjonto deya hoise //
-    {
-        for (int j = i + 1; j < 3; j++)
-        {
-            if (a[i].marks > a[j].roll) swap(a[i], a[j]); // Shudhu marks e na, onno je kono kisu diye e sort kora jabe //
-        }
-    }
+    
 
     for (int i = 0; i < 3; i++)
     {
